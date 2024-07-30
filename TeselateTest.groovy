@@ -4,7 +4,7 @@ import eu.mihosoft.vrl.v3d.Hexagon
 
 // code here
 
-List<CSG> tesselate(CSG incoming,int xSteps, int ySteps, double xGrid, double yGrid, double oddRowYOffset){
+List<CSG> tesselate(CSG incoming,int xSteps, int ySteps, double xGrid, double yGrid, double oddColYOffset, double odd){
 		ArrayList<CSG> back = new ArrayList<CSG>();
 		for(int i=0;i<xSteps;i++) {
 			for(int j=0;j<ySteps;j++) {
